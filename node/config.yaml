@@ -1,4 +1,4 @@
-service_name: 'GoogleExtension'
+service_name: 'fe19a64a-c274-412d-a6e8-66b9639e1f3a'
 
 http:
   url: http://0.0.0.0:9000
@@ -15,8 +15,8 @@ uc_flow_node:
   register_on_start: false
   execute_view_queue_size: 500
   execute_view_workers: 5
-  private_url: https://bc90-178-209-118-100.ngrok.io
-  public_url: https://bc90-178-209-118-100.ngrok.io
+  private_url: https://d57c-188-225-99-101.ngrok-free.app
+  public_url: https://d57c-188-225-99-101.ngrok-free.app
   uc_flow:
-    domain: https://uc-flow-v2-prod-api.comagic.ru
-    jwt_secret: 9109a79d-74f9-45bd-b369-5e7a885421e5s
+    domain: https://uc-flow-v2-pp-api.uis.st
+    jwt_secret: 9109a79d-74f9-45bd-b369
