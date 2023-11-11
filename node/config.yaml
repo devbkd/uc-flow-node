@@ -15,8 +15,8 @@ uc_flow_node:
   register_on_start: false
   execute_view_queue_size: 500
   execute_view_workers: 5
-  private_url: https://d57c-188-225-99-101.ngrok-free.app
-  public_url: https://d57c-188-225-99-101.ngrok-free.app
+  private_url: https://5098-178-205-52-239.ngrok-free.app
+  public_url: https://5098-178-205-52-239.ngrok-free.app
   uc_flow:
     domain: https://uc-flow-v2-pp-api.uis.st
     jwt_secret: 9109a79d-74f9-45bd-b369
