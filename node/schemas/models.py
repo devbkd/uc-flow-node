@@ -1,9 +1,23 @@
 from pydantic import BaseModel
 
 
-class EmailInput(BaseModel):
-    email_input: str
+class AuthorizationInput(BaseModel):
+    hostname: str
+    branch: int
+    email: str
+    api_key: str
+    auth_result: dict
 
 
-class DatetimeInput(BaseModel):
-    datetime_input: str
+class CustomerParameters(BaseModel):
+    id: int
+    is_study: int
+    name: str
+    lead_status_id: int
+    page: int
+
+
+class CustomerCreateParameters(BaseModel):
+    is_study: int
+    name: str
+    legal_type: bool
