@@ -13,5 +13,5 @@
 7. Запустите Ngrok htpp на порту 9000. Сделайте его скриншот и добавьте в README.md
 
 Ответ: 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](media/image-1.png)
+![Alt text](media/image.png)
